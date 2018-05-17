@@ -1,0 +1,46 @@
+1)Inicio
+	1.1) Definir Documento de Visao do Projeto
+		Utilizar o metodo SMART (S->especifico, M->Mensuravel, A->Atingivel, R->Relevante/Realista, T->Restrito no tempo) para fazer o objetivo do projeto.
+2) Planejamento	
+	2.1) Historia de usuario - coletado em reunioes dos grupos de usuarios junto com o product owner.	 
+		Ator - precisa|quer|devo|gostaria - para que
+		1His) Como diretor, quer fazer avaliacoes de desempenho dos professores para poder dar bonus com justica.(No caso essa historia de usuario é muito grande (épico)  tem que ser dividida em partes menores).
+		2His) Como diretor, quero realizar os cadastro dos professores no sistema.
+
+	2.2) Quebrar Épicos em historias menores e tangiveis a ser resolvidas.
+		2.2.1)Como diretor, quer fazer avaliacoes de desempenho dos professores para poder dar bonus com justica.
+			2.2.1.1) Permitir o cadastro de categoria de avaliacao
+			2.2.1.2) Permitir o cadastro de critérios de avaliacao 
+			2.2.1.3) Permitir o registro de avaliações
+			2.2.1.4) Permitir o envio de avalicao por e-mail
+			2.2.1.5) Permitir a impressão da avaliações
+			2.2.1.6) Permitir a configuração de permissões sobre quem avalia quem
+	
+	2.3)Como diretor, eu preciso que seja possível realizar o cadastro de novos alunos no sistema para que possamos ter um registro completo das informações 	dos nossos estudantes online e de facil acesso. 
+		2.3.1) [Cadstro Alunos] Inserção de Informação do aluno
+		Deve ser criada uma area para registro de novos alunos, onde haverá um formulário para preenchimento do nome, foto, endereco, idade, telefone e nome dos pais.
+			2.3.1.1) Após o preenchimento dos dados, o aluno deve ser registrado com sucesso.
+			2.3.1.2) Devem ser realizadas validações em cada campo do formulário para que não seja aceito campos em branco
+			2.3.1.3) Após o registro de cada aluno, o sistema deverá exibir uma mensagem de confirmação contendo o numero da matricula gerado para o aluno
+		2.3.2) [Cadstro Alunos] Pagamento de matricula
+		Deve ser emetido um recibo de pagamento de matricula do alauno no ato do registro, ficando o comprovante tambem armazenado no sistema
+			2.3.2.1) Após o preenchimento dos dados, solicitar o valor pago no ato da matricula, e gerar o recibo
+			2.3.2.1) Conter a logo da Escola Esperança no recibo.
+			2.3.2.1) Sistema deve exibir o recibo no modo impressão.
+
+	2.4) Cronograma de Release 
+		Release | Historia 							| Data Entrega
+		1 	  Cadastro de alunos e Cadastro de Professores 			  17/06/2018
+		2 	  Relatorios Gerais de Alunos e Relatorios Gerais de Professores  02/07/2018
+		3 	  Registro de Presença e Controle de nota 			  17/07/2018  
+		4         Avaliação dos Professores e Realização de Matricula Online      02/08/2018
+
+	2.5) Planejamento primeira Sprint (interação com tempo de entrega(durando duas semanas para entregar))
+		Plenejamento do Backlog da Spring 
+		Planejar a quantidade de tempo para cada historia de usuario e colocar em não iniciado
+		Nesse planejamento é realizado a reuniao para obter os dados Donos do produto Com equipe Scrum, com um time-box maximo 4 horas (2 horas por semana)
+		Como realizar estemativa de esforço com Planning Poker para uma historia de usuario selecionado pelo product owner: cada um estima a quantidade de horas para desenvolver, se a maioria dos valores coincidir é o valor a ser 		escolhido. Caso seja encontrado uma diferenca, é discutido o porque e refeito a jogada até que se chegem a numero iguais. 
+
+	2.6) Tarefas (Após a formulacao do backlog, pega uma historia e gera varias tarefas para dividir com o grupo, com data final, quantidade de horas estimada)
+
+3) Implementação
