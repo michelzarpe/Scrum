@@ -2,7 +2,7 @@
 	1.1) Definir Documento de Visao do Projeto
 		Utilizar o metodo SMART (S->especifico, M->Mensuravel, A->Atingivel, R->Relevante/Realista, T->Restrito no tempo) para fazer o objetivo do projeto.
 2) Planejamento	
-	2.1) Historia de usuario - coletado em reunioes dos grupos de usuarios junto com o product owner.	 
+	2.1) Historia de usuario (BackLog do Produto) - coletado em reunioes dos grupos de usuarios junto com o product owner.	 
 		Ator - precisa|quer|devo|gostaria - para que
 		1His) Como diretor, quer fazer avaliacoes de desempenho dos professores para poder dar bonus com justica.(No caso essa historia de usuario é muito grande (épico)  tem que ser dividida em partes menores).
 		2His) Como diretor, quero realizar os cadastro dos professores no sistema.
@@ -28,19 +28,39 @@
 			2.3.2.1) Conter a logo da Escola Esperança no recibo.
 			2.3.2.1) Sistema deve exibir o recibo no modo impressão.
 
-	2.4) Cronograma de Release 
+	2.4) Cronograma de Release -> sempre cuidar com as alteracoes no backlog do produto
 		Release | Historia 							| Data Entrega
 		1 	  Cadastro de alunos e Cadastro de Professores 			  17/06/2018
 		2 	  Relatorios Gerais de Alunos e Relatorios Gerais de Professores  02/07/2018
 		3 	  Registro de Presença e Controle de nota 			  17/07/2018  
 		4         Avaliação dos Professores e Realização de Matricula Online      02/08/2018
 
-	2.5) Planejamento primeira Sprint (interação com tempo de entrega(durando duas semanas para entregar))
+	2.5) Planejamento primeira Sprint (interação com tempo de entrega(durando duas semanas para entregar)) -> REUNIAO DE PLANEJAMENTO
 		Plenejamento do Backlog da Spring 
 		Planejar a quantidade de tempo para cada historia de usuario e colocar em não iniciado
-		Nesse planejamento é realizado a reuniao para obter os dados Donos do produto Com equipe Scrum, com um time-box maximo 4 horas (2 horas por semana)
+		Nesse planejamento é realizado a reuniao para obter os dados, com Donos do produto Com equipe Scrum, com um time-box maximo 4 horas (2 horas por semana)
 		Como realizar estemativa de esforço com Planning Poker para uma historia de usuario selecionado pelo product owner: cada um estima a quantidade de horas para desenvolver, se a maioria dos valores coincidir é o valor a ser 		escolhido. Caso seja encontrado uma diferenca, é discutido o porque e refeito a jogada até que se chegem a numero iguais. 
 
 	2.6) Tarefas (Após a formulacao do backlog, pega uma historia e gera varias tarefas para dividir com o grupo, com data final, quantidade de horas estimada)
 
+	2.7) burnsdown chart - eixo y = tarefas, eixo x = dias a terminar.
+	Grafico realizado por sprint, com isso inseri duas séries, uma que é a estimativa e a outra o que realmente esta acontecendo
+
+
 3) Implementação
+	3.1) Reuniao diaria - Equipe Scrum, no mesmo horario sempre no comeco do dia, com no maximo 15 minutos, feito em pé mesmo, e olhando pro painel e grafico burnsdown chart. Comandada pelo Scrum Master
+		3.1.1) O que eu fiz ontem que ajudou a minha equipe?
+		3.1.2) O que eu vou fazer hoje pra ajudar o time atingir a meta?
+		3.1.3) Existe alguma dificuldade?
+	3.2) Refinamento do Backlog do produto-> com as entregas de cada produto o cliente pode adaptar, criar novas historias de usuario
+		
+	
+4) Revisao e Retrospectiva (quando concluida)
+	4.1) Revisao da Sprint[n]: Reuniao com uma revisao, com o product owner, junto com as partes interessadas, demonstrando o sistema. No maximo 2 horas por semana			
+	4.2) Retrospectiva da Sprint[n]-> depois da Revisao, e antes da revisao do planejamento da sprint tempo de 1 hora e meia a uma sprint de 2 semanas
+
+5) Release -> nem toda sprint vai entregar uma release
+	5.1)Retrospectiva do projeto como um todo
+
+
+
